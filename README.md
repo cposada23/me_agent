@@ -39,20 +39,3 @@ And if you don't want to set secrets this way, or something goes wrong with it, 
 5. You can scroll down to change your secrets (Variables and Secrets section), delete the space, etc.
 
 #### And now you should be deployed!
-
-If you want to completely replace everything and start again with your keys, you may need to delete the README.md that got created in this 1_foundations folder.
-
-Here is mine: https://huggingface.co/spaces/ed-donner/Career_Conversation
-
-I just got a push notification that a student asked me how they can become President of their country 😂😂
-
-For more information on deployment:
-
-https://www.gradio.app/guides/sharing-your-app#hosting-on-hf-spaces
-
-To delete your Space in the future:  
-1. Log in to HuggingFace
-2. From the Avatar menu, select your profile
-3. Click on the Space itself and select the settings wheel on the top right
-4. Scroll to the Delete section at the bottom
-5. ALSO: delete the README file that Gradio may have created inside this 1_foundations folder (otherwise it won't ask you the questions the next time you do a gradio deploy)
