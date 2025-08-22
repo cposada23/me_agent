@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 import requests
 
 # Load environment variables
-load_dotenv()
+load_dotenv(override=True)
 
 class Pusher:
     """
@@ -67,3 +67,6 @@ class Pusher:
             return {'error': f"Network error while sending notification: {str(e)}"}
         except Exception as e:
             return {'error': f"Unexpected error while sending notification: {str(e)}"}
+    
+    def print_globals(self):
+        print(globals())
